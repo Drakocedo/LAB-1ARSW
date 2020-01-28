@@ -1,4 +1,14 @@
 ## BBP Formula
+
+### Compile and run instructions
+
+Entrar al directorio ARSW-LAB-01/BBP_FORMULA/PARALLELISM-JAVA_THREADS_MAVEN-INTRODUCTION_BBP_FORMULA
+
+Para compilar: Ejecutar mvn package
+
+### Para ejecutar CountThread: 
+mvn exec:java -Dexec.mainClass="edu.eci.arsw.threads.CountThreadsMain"
+
 ### Part I - Introduction to Java Threads
 1. As reviewed in the readings, complete the CountThread classes, so that they define the life cycle of a thread that prints the numbers between A and B. 
 2. Complete the main method of the CountMainThreads class so that: 
