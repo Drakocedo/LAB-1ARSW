@@ -4,7 +4,11 @@
 
 Entrar al directorio ARSW-LAB-01/BBP_FORMULA/PARALLELISM-JAVA_THREADS_MAVEN-INTRODUCTION_BBP_FORMULA
 
-Para compilar: Ejecutar mvn package
+### Para compilar:
+Ejecutar mvn package
+
+### Para ejecutar las pruebas: 
+mvn test
 
 ### Para ejecutar CountThread: 
 mvn exec:java -Dexec.mainClass="edu.eci.arsw.threads.CountThreadsMain"
@@ -30,3 +34,13 @@ mvn exec:java -Dexec.mainClass="edu.eci.arsw.threads.CountThreadsMain"
 ![](img/Capture4.PNG)
 
 El metodo run() invoca a la funcion que se ejecuta en el main por eso los numeros salen ordenados, en cambio el metodo start() ejecuta varios procesos al mismo tiempo por eso vemos que los numeros no se muestran de manera ordenada.
+
+###Part II - BBP Formula Exercise
+
+1. Create a Thread type class that represents the life cycle of a thread that calculates a portion of the required digits.
+
+![](img/Capture5.PNG)
+
+2. Have the PiDigits.getDigits() function receive as an additional parameter an N value, corresponding to the number of threads between which the solution is to be parallelized. Have that function wait until the N threads finish solving the problem to combine the answers and then return the result. For this, review the join method of the Java concurrency API. 
+
+![](img/Capture6.PNG)
