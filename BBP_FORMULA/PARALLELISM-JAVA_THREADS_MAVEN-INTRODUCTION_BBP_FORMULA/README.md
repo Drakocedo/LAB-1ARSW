@@ -29,4 +29,4 @@ mvn exec:java -Dexec.mainClass="edu.eci.arsw.threads.CountThreadsMain"
 
 ![](img/Capture4.PNG)
 
-El metodo run() no ejecuta de forma asincrona por lo que debe esperar a que termine cada hilo, en cambio el metodo start() ejecuta varios procesos al mismo tiempo por eso vemos que los numeros no se muestran de manera ordenada.
+El metodo run() invoca a la funcion que se ejecuta en el main por eso los numeros salen ordenados, en cambio el metodo start() ejecuta varios procesos al mismo tiempo por eso vemos que los numeros no se muestran de manera ordenada.
