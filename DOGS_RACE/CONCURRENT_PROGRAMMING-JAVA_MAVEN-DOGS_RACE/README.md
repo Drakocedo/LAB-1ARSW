@@ -12,7 +12,7 @@ Entrar al directorio `ARSW-LAB-01/DOGS_RACE/CONCURRENT_PROGRAMMING-JAVA_MAVEN-DO
 
 1. Añadir el metodo join() para ver el resultado de la carrera una vez finalizada.
 
-![](/img/media/Captura1.PNG)
+![](/img/media/Captura1.JPG)
 
 2. En esta parte de código perteneciente a la clase `Galgo.java` en la función `corra()` encontramos la región critica.
 
