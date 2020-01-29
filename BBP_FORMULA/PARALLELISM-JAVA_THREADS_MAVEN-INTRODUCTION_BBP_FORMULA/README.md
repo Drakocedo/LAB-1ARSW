@@ -65,6 +65,13 @@ El metodo run() invoca a la funcion que se ejecuta en el main por eso los numero
 
 ![](img/Capture200hilos.PNG)
 
-5. 500 threads 
+5. 500 threads/59 segundos
 
 ![](img/Capture500hilos.PNG)
+
+
+1.Al aumentar la cantidad de hilos se divide la tarea demasiado por lo que lleva a que el tiempo aumente
+
+2. Utilizar el doble de hilos que procesadores reduce el tiempo de ejecucion y es viable ya que se reduci el tiempo de ejcucion y los procesadores no tienen una carga excesiva que le permita cumplir su funcion.
+
+3. Entre mas CPUs se utlicen se reduce la carga para cada procesador por lo que no se estaria usando de manera completa cada procesador
