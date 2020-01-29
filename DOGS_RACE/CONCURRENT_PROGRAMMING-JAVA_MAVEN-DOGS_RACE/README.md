@@ -12,13 +12,13 @@ Entrar al directorio `ARSW-LAB-01/DOGS_RACE/CONCURRENT_PROGRAMMING-JAVA_MAVEN-DO
 
 1. Añadir el metodo join() para ver el resultado de la carrera una vez finalizada.
 
-![](/img/media/Captura1.JPG)
+![](img/media/Captura1.JPG)
 
 2. En esta parte de código perteneciente a la clase `Galgo.java` en la función `corra()` encontramos la región critica.
 
-![](img/Captura1.PNG)
+![](img/media/Capturap.JPG)
 
 Solución
 Se sincroniza esta parte de código haciendo referencia a _regl_ en `synchronized( regl )` ya que es accedida por los demás Threads a su función de incremento de posición.
 
-![](img/Capture1.PNG)
+![](img/media/Capturas.JPG)
